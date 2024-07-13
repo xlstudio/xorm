@@ -8,11 +8,11 @@ import (
 	"context"
 	"time"
 
-	"xorm.io/xorm/caches"
-	"xorm.io/xorm/contexts"
-	"xorm.io/xorm/dialects"
-	"xorm.io/xorm/log"
-	"xorm.io/xorm/names"
+	"github.com/xlstudio/xorm/caches"
+	"github.com/xlstudio/xorm/contexts"
+	"github.com/xlstudio/xorm/dialects"
+	"github.com/xlstudio/xorm/log"
+	"github.com/xlstudio/xorm/names"
 )
 
 // EngineGroup defines an engine group

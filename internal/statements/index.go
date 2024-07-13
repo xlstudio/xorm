@@ -7,8 +7,8 @@ package statements
 import (
 	"strings"
 
+	"github.com/xlstudio/xorm/schemas"
 	"xorm.io/builder"
-	"xorm.io/xorm/schemas"
 )
 
 type ErrInvalidIndexHintOperator struct {

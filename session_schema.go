@@ -13,8 +13,8 @@ import (
 	"os"
 	"strings"
 
-	"xorm.io/xorm/dialects"
-	"xorm.io/xorm/internal/utils"
+	"github.com/xlstudio/xorm/dialects"
+	"github.com/xlstudio/xorm/internal/utils"
 )
 
 // Ping test if database is ok

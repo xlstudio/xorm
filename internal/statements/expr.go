@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/xlstudio/xorm/schemas"
 	"xorm.io/builder"
-	"xorm.io/xorm/schemas"
 )
 
 // ErrUnsupportedExprType represents an error with unsupported express type

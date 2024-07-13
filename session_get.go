@@ -13,11 +13,11 @@ import (
 	"strconv"
 	"time"
 
-	"xorm.io/xorm/caches"
-	"xorm.io/xorm/convert"
-	"xorm.io/xorm/core"
-	"xorm.io/xorm/internal/utils"
-	"xorm.io/xorm/schemas"
+	"github.com/xlstudio/xorm/caches"
+	"github.com/xlstudio/xorm/convert"
+	"github.com/xlstudio/xorm/core"
+	"github.com/xlstudio/xorm/internal/utils"
+	"github.com/xlstudio/xorm/schemas"
 )
 
 var (

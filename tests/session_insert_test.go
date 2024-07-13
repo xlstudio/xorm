@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"xorm.io/xorm"
-	"xorm.io/xorm/schemas"
+	"github.com/xlstudio/xorm"
+	"github.com/xlstudio/xorm/schemas"
 
 	"github.com/stretchr/testify/assert"
 )

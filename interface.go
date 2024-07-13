@@ -10,12 +10,12 @@ import (
 	"reflect"
 	"time"
 
-	"xorm.io/xorm/caches"
-	"xorm.io/xorm/contexts"
-	"xorm.io/xorm/dialects"
-	"xorm.io/xorm/log"
-	"xorm.io/xorm/names"
-	"xorm.io/xorm/schemas"
+	"github.com/xlstudio/xorm/caches"
+	"github.com/xlstudio/xorm/contexts"
+	"github.com/xlstudio/xorm/dialects"
+	"github.com/xlstudio/xorm/log"
+	"github.com/xlstudio/xorm/names"
+	"github.com/xlstudio/xorm/schemas"
 )
 
 // Interface defines the interface which Engine, EngineGroup and Session will implementate.

@@ -11,10 +11,10 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"xorm.io/xorm/convert"
-	"xorm.io/xorm/internal/utils"
-	"xorm.io/xorm/names"
-	"xorm.io/xorm/schemas"
+	"github.com/xlstudio/xorm/convert"
+	"github.com/xlstudio/xorm/internal/utils"
+	"github.com/xlstudio/xorm/names"
+	"github.com/xlstudio/xorm/schemas"
 )
 
 type tempUser struct {

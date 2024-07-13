@@ -5,8 +5,8 @@
 package statements
 
 import (
+	"github.com/xlstudio/xorm/schemas"
 	"xorm.io/builder"
-	"xorm.io/xorm/schemas"
 )
 
 // WriteArg writes an arg

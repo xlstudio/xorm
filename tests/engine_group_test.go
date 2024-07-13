@@ -7,9 +7,9 @@ package tests
 import (
 	"testing"
 
-	"xorm.io/xorm"
-	"xorm.io/xorm/log"
-	"xorm.io/xorm/schemas"
+	"github.com/xlstudio/xorm"
+	"github.com/xlstudio/xorm/log"
+	"github.com/xlstudio/xorm/schemas"
 
 	"github.com/stretchr/testify/assert"
 )

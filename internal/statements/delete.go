@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/xlstudio/xorm/internal/utils"
+	"github.com/xlstudio/xorm/schemas"
 	"xorm.io/builder"
-	"xorm.io/xorm/internal/utils"
-	"xorm.io/xorm/schemas"
 )
 
 func (statement *Statement) writeDeleteOrder(w *builder.BytesWriter) error {

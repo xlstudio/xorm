@@ -5,11 +5,11 @@
 package dialects
 
 import (
+	"github.com/xlstudio/xorm/internal/utils"
 	"strings"
 	"time"
-	"xorm.io/xorm/internal/utils"
 
-	"xorm.io/xorm/schemas"
+	"github.com/xlstudio/xorm/schemas"
 )
 
 // FormatColumnTime format column time

@@ -10,12 +10,12 @@ import (
 	"reflect"
 	"strings"
 
+	"github.com/xlstudio/xorm/caches"
+	"github.com/xlstudio/xorm/convert"
+	"github.com/xlstudio/xorm/internal/statements"
+	"github.com/xlstudio/xorm/internal/utils"
+	"github.com/xlstudio/xorm/schemas"
 	"xorm.io/builder"
-	"xorm.io/xorm/caches"
-	"xorm.io/xorm/convert"
-	"xorm.io/xorm/internal/statements"
-	"xorm.io/xorm/internal/utils"
-	"xorm.io/xorm/schemas"
 )
 
 const (

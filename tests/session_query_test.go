@@ -12,7 +12,7 @@ import (
 
 	"xorm.io/builder"
 
-	"xorm.io/xorm/schemas"
+	"github.com/xlstudio/xorm/schemas"
 
 	"github.com/stretchr/testify/assert"
 )

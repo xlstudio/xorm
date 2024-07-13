@@ -8,9 +8,9 @@ import (
 	"errors"
 	"strconv"
 
+	"github.com/xlstudio/xorm/caches"
+	"github.com/xlstudio/xorm/schemas"
 	"xorm.io/builder"
-	"xorm.io/xorm/caches"
-	"xorm.io/xorm/schemas"
 )
 
 // ErrNeedDeletedCond delete needs less one condition error

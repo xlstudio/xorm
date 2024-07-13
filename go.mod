@@ -1,4 +1,4 @@
-module xorm.io/xorm
+module github.com/xlstudio/xorm
 
 go 1.18
 
